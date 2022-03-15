@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Manrope:wght@500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&family=Spartan:wght@400;500;700&display=swap');
+
+:root{
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    font-family: 'Manrope' ,sans-serif;
+    font-size: 0.813rem;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Light-Grayish-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Carta*/
+
+.card{
+    width: 60%;
+    height: 40%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-radius: 1rem;
+}
+
+/*Imagen*/
+
+.foto{
+    background-image: url(/images/drawers.jpg);
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+/*Noticia*/
+
+.noticia{
+    margin: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article h1{
+    color: var(--Very-Dark-Grayish-Blue);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+article p{
+    color: var(--Desaturated-Dark-Blue);
+    font-size: .9rem;
+}
+
+.autor{
+    display: flex;
+    justify-content: space-between;
+}
