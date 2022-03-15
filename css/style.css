@@ -52,7 +52,7 @@ main{
 /*Noticia*/
 
 .noticia{
-    margin: 2.5rem;
+    margin: 2.4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,7 +69,107 @@ article p{
     font-size: .9rem;
 }
 
+/*Info de Michelle*/
+
 .autor{
     display: flex;
     justify-content: space-between;
 }
+
+.profile-pic{
+    background-image: url(/images/avatar-michelle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.person{
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    justify-content: space-between;
+}
+
+.info{
+    margin-top: 0.5rem;
+}
+
+.nombre{
+    color: var(--Very-Dark-Grayish-Blue);
+    font-weight: 700;
+}
+
+.fecha{
+    color: var(--Grayish-Blue);
+}
+
+/*Boton compartir*/
+
+.compartir{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(/images/icon-share.svg);
+    background-repeat: no-repeat;
+    background-color: var(--Light-Grayish-Blue);
+    background-position: center;
+    background-size: 50%;
+    margin-top: .6rem;
+}
+
+.compartir:hover{
+    cursor: pointer;
+}
+
+.fondo_negro{
+    background-color: var(--Very-Dark-Grayish-Blue);
+    background-image: url(/images/icon-share.svg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 50%;
+}
+
+.flecha{
+    position: absolute;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    bottom: 42%;
+    right: 23%;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: rotate(45deg);
+}
+
+.share{
+    position: absolute;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    color: var(--Desaturated-Dark-Blue);
+    text-transform: uppercase;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 8rem;
+    padding: 1rem 1.5rem;
+    border-radius: .8rem;
+    bottom: 42.5%;
+    right: 18%;
+}
+
+.redes{
+    width: 1rem;
+    height: 1rem;
+}
+
+.redes:hover{
+    cursor: pointer;
+}
+
+.desactivar{
+    display: none;
+}
+
+
+
+
